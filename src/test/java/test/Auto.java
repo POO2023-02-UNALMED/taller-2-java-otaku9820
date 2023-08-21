@@ -20,7 +20,7 @@ public class Auto {
        }
        return numAsientos;
    }
-   String verificarintegridad(){
+   String verificarIntegridad(){
 
        if (motor.registro == registro && motor.registro == cantidadAsientos()) {
            return "Las piezas son originales";
